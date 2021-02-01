@@ -56,13 +56,13 @@ def send(switch_name, ipv4_addr, port_id, vlan_id, pc_name, pc_ip, username) :
 
     #data to send 
     userdata = {
-        'switch_name':switch_name, 
-        'ipv4_addr':ipv4_addr, 
-        'port_id':port_id, 
-        'vlan_id':vlan_id, 
-        'pc_name':pc_name, 
-        'pc_ip':pc_ip, 
-        'username':username 
+        'sName':switch_name, 
+        'sIp':switch_ip, 
+        'pId':port_id, 
+        'vId':vlan_id, 
+        'pName':pc_name, 
+        'pIp':pc_ip, 
+        'uName':username 
         }
 
     #sending data
