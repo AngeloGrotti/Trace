@@ -10,11 +10,10 @@ Please replace the the following fields in the code on line 69 :
 servername
 filename
 
-You may also want to change the interface on what interface the program listens for the CDP packet on line 24.
+You may also want to change on what interface the program listens for the CDP packet on line 24.
 
 Install Modules :
-pip install scapy
-pip install requests
+pip install scapy, requests
 
 Run :
 python3 trace.py
